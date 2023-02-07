@@ -8,4 +8,4 @@
 
 # Screenshots
 
-![Screenshot_1](https://cdn.discordapp.com/attachments/1068860613842972712/1072601269660823583/image.png)
+![Screenshot_1](https://cdn.discordapp.com/attachments/1068860613842972712/1072603372600954940/image.png)
