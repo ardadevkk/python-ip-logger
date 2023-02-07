@@ -1,6 +1,5 @@
 import requests
 import ctypes
-import easygui
 
 ctypes.windll.user32.MessageBoxW(0, u"The application failed to start properly (0xc000007b). Click the OK button to terminate the application.", u"ProgramName - Program Eror", 0)
 
